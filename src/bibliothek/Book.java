@@ -23,7 +23,7 @@ public class Book {
     private double price;
     private boolean isReserved;
     ArrayList<SubBook> copyDetails;
-    ArrayList<Members> reserveList;
+    ArrayList<Member> reserveList;
     public Book(String ISBN, String name, String publisher, int yearOfPurchase, int rackNo, double price) {
         this.ISBN = ISBN;
         this.name = name;
@@ -118,16 +118,25 @@ public class Book {
         this.copyDetails = copyDetails;
     }
 
-    public ArrayList<Members> getReserveList() {
+    public ArrayList<Member> getReserveList() {
         return reserveList;
     }
 
-    public void setReserveList(ArrayList<Members> reserveList) {
+    public void setReserveList(ArrayList<Member> reserveList) {
         this.reserveList = reserveList;
     }
     
     public void add(){
         SubBook newCopy = new SubBook(countID,false);
         copyDetails.add(newCopy);
+        countID++;
+    }
+    public void delete(int ID){
+        int i;
+        for(i=0;i<copyDetails.size();i++){
+            if(copyDetails.get(i).getID()==ID){
+                copyDetails.remove(i);
+            }
+        }
     }
 }
