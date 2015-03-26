@@ -5,14 +5,48 @@
  */
 package bibliothek;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author AKASH
  */
 class SubBook {
+    private int ID;
+    private boolean isIssued;
+    private ArrayList<IssueDetails_book> issuedMembers;
 
-    SubBook(int countID, boolean b) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public SubBook(int ID, boolean isIssued) {
+        this.ID = ID;
+        this.isIssued = isIssued;
+        issuedMembers=new ArrayList<>();
     }
+
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
+    }
+
+    public boolean isIsIssued() {
+        return isIssued;
+    }
+
+    public void setIsIssued(boolean isIssued) {
+        this.isIssued = isIssued;
+    }
+
+    public ArrayList<IssueDetails_book> getIssuedMembers() {
+        return issuedMembers;
+    }
+
+    public void setIssuedMembers(ArrayList<IssueDetails_book> issuedMembers) {
+        this.issuedMembers = issuedMembers;
+    }
+    
+
+    
     
 }
