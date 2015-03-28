@@ -5,9 +5,11 @@
         <group>
             <file>file:/C:/Documents/NetBeansProjects/Bibliothek/src/bibliothek/Book.java</file>
             <file>file:/C:/Documents/NetBeansProjects/Bibliothek/src/bibliothek/IssueDetails_member.java</file>
+            <file>file:/C:/Documents/NetBeansProjects/Bibliothek/src/bibliothek/LibrarySystem.java</file>
             <file>file:/C:/Documents/NetBeansProjects/Bibliothek/src/bibliothek/IssueDetails_book.java</file>
             <file>file:/C:/Documents/NetBeansProjects/Bibliothek/src/bibliothek/Member.java</file>
             <file>file:/C:/Documents/NetBeansProjects/Bibliothek/src/bibliothek/SubBook.java</file>
+            <file>file:/C:/Documents/NetBeansProjects/Bibliothek/src/bibliothek/Librarian.java</file>
         </group>
     </open-files>
 </project-private>

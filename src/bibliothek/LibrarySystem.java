@@ -5,11 +5,15 @@
  */
 package bibliothek;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author sayan
  */
 public class LibrarySystem {
+    private static ArrayList<Book> bookList;
+    private static ArrayList<Member> memberList;
     
     public void statistics()
     {
