@@ -44,9 +44,6 @@ class SubBook {
 
     public void setIssuedMembers(ArrayList<IssueDetails_book> issuedMembers) {
         this.issuedMembers = issuedMembers;
-    }
-    
-
-    
+    }    
     
 }

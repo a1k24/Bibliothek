@@ -111,4 +111,19 @@ class Member {
     public void setDuration(int duration) {
         this.duration = duration;
     }
+    
+    public void issue(String ISBN)
+    {
+        
+    }
+    
+    public void returned(String ISBN)
+    {
+        
+    }
+    
+    public void reserve(String ISBN)
+    {
+        
+    }
 }
