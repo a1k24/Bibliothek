@@ -21,6 +21,8 @@ class Member {
     private double fine;
     private int bookLimit;
     private int duration;
+    ArrayList<IssueDetails_member> booksIssued;
+
 
     public Member(type memberType, int ID, String name, String phoneNo, String address) {
         this.memberType = memberType;
@@ -29,7 +31,6 @@ class Member {
         this.phoneNo = phoneNo;
         this.address = address;
         fine=0.0;
-        ArrayList<IssueDetails_member> booksIssued;
         if(memberType==type.underGraduate){
             bookLimit=2;
             duration=1;
